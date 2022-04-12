@@ -6,19 +6,46 @@
         xmlns:local="clr-namespace:Invest_Portfolio"
         mc:Ignorable="d"
         Title="Invest Portfolio v1.0" Height="600" Width="1000">
+
+    <Window.Resources>
+        <Style x:Key="Menu_Button_Style" TargetType="Button">
+
+            <Style.Setters>
+                <Setter Property="Control.Background" Value="#00000000" />
+                <Setter Property="Control.Foreground" Value="#FFC8C8FF" />
+                <Setter Property="Control.BorderBrush" Value="#00000000" />
+                <Setter Property="Control.FontSize" Value="15" />
+            </Style.Setters>
+            
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    
+                    <Setter Property="Cursor" Value="Hand"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-       
+
+        
         <Image Grid.ColumnSpan="2" x:Name="Background_Image" Source ="Resources/Fon.jpg" Stretch="UniformToFill" Visibility="Visible"/>
         
         <Border x:Name="Border_Left" Grid.Column="0" Background="#E53C3C46">
             <Border x:Name="Menu" CornerRadius="20,0,0,20" Background="#E5232328" BorderThickness="5,5,0,5">
-                
+                <StackPanel Orientation="Vertical" VerticalAlignment="Top" Margin="0,100,0,0" >
+                    <Button Height="50" Content="Кнопка 1" Style="{StaticResource Menu_Button_Style}"/>
+                    <Button Height="50" Content="Кнопка 2" Style="{StaticResource Menu_Button_Style}"/>
+                    <Button Height="50" Content="Кнопка 3" Style="{StaticResource Menu_Button_Style}"/>
+                </StackPanel>
             </Border>
+            
         </Border>
+        
         <Border x:Name="Border_Right" Grid.Column="1"  Background="#E53C3C46" ></Border>
     </Grid>
 </Window>
