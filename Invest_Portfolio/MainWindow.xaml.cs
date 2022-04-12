@@ -24,5 +24,9 @@ namespace Invest_Portfolio
         {
             InitializeComponent();
         }
+
+       
     }
+
+
 }

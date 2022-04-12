@@ -1,0 +1,16 @@
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.csproj.AssemblyReference.cache
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.csproj.SuggestedBindingRedirects.cache
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\MainWindow.g.cs
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\App.g.cs
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio_MarkupCompile.cache
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio_MarkupCompile.lref
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\bin\Debug\Invest_Portfolio.exe.config
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\bin\Debug\Invest_Portfolio.exe
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\bin\Debug\Invest_Portfolio.pdb
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\MainWindow.baml
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.g.resources
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.Properties.Resources.resources
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.csproj.GenerateResource.cache
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.csproj.CoreCompileInputs.cache
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.exe
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.pdb

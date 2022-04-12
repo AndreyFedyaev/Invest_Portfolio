@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Invest_Portfolio"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Invest Portfolio v1.0" Height="600" Width="1000">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+       
+        <Image Grid.ColumnSpan="2" x:Name="Background_Image" Source ="Resources/Fon.jpg" Stretch="UniformToFill" Visibility="Visible"/>
         
+        <Border x:Name="Border_Left" Grid.Column="0" Background="#E53C3C46">
+            <Border x:Name="Menu" CornerRadius="20,0,0,20" Background="#E5232328" BorderThickness="5,5,0,5">
+                
+            </Border>
+        </Border>
+        <Border x:Name="Border_Right" Grid.Column="1"  Background="#E53C3C46" ></Border>
     </Grid>
 </Window>
