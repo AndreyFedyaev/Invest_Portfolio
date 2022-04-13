@@ -25,7 +25,24 @@ namespace Invest_Portfolio
             InitializeComponent();
         }
 
-       
+        private void Button_Menu_1 (object sender, RoutedEventArgs e)
+        {
+            Menu_1.Background = new SolidColorBrush(Color.FromArgb(0, 0, 0, 0));
+            Menu_2.Background = new SolidColorBrush(Color.FromArgb(229, 35, 35, 40));
+            Menu_3.Background = new SolidColorBrush(Color.FromArgb(229, 35, 35, 40));
+        }
+        private void Button_Menu_2(object sender, RoutedEventArgs e)
+        {
+            Menu_1.Background = new SolidColorBrush(Color.FromArgb(229, 35, 35, 40));
+            Menu_2.Background = new SolidColorBrush(Color.FromArgb(0, 0, 0, 0));
+            Menu_3.Background = new SolidColorBrush(Color.FromArgb(229, 35, 35, 40));
+        }
+        private void Button_Menu_3(object sender, RoutedEventArgs e)
+        {
+            Menu_1.Background = new SolidColorBrush(Color.FromArgb(229, 35, 35, 40));
+            Menu_2.Background = new SolidColorBrush(Color.FromArgb(229, 35, 35, 40));
+            Menu_3.Background = new SolidColorBrush(Color.FromArgb(0, 0, 0, 0));
+        }
     }
 
 
