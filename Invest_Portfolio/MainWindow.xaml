@@ -8,47 +8,42 @@
         Title="Invest Portfolio v1.0" Height="600" Width="1000">
 
     <Window.Resources>
-        <Style x:Name="Menu_Button_Style" x:Key="Menu_Button_Style" TargetType="Button">
+        <Style x:Key="Menu_Button_Style">
             <Style.Setters>
-                <Setter Property="Control.Background" Value="#E5232328" />
-                <Setter Property="Control.Foreground" Value="#FFC8C8FF" />
+                <Setter Property="Control.Background" Value="#FF232323" />
+                <Setter Property="Control.Foreground" Value="#FF9B9B9B" />
                 <Setter Property="Control.BorderThickness" Value="0" />
                 <Setter Property="Control.FontSize" Value="15" />
             </Style.Setters>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    
-                    <Setter Property="Cursor" Value="Hand"/>
-                </Trigger>
-            </Style.Triggers>
         </Style>
     </Window.Resources>
-    
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Image Grid.ColumnSpan="2" x:Name="Background_Image" Source ="Resources/Fon.jpg" Stretch="UniformToFill" Visibility="Visible"/>
-        <Border x:Name="Border_Left" Grid.Column="0" Background="#E53C3C46">
-            
-                <Grid>
+        <Border x:Name="Border_Left" Grid.Column="0" Background="#FF414043">
+            <Grid>
                 <Grid.RowDefinitions>
-                        <RowDefinition Height="100"></RowDefinition>
-                        <RowDefinition Height="120"></RowDefinition>
-                        <RowDefinition Height="*"></RowDefinition>
-                    </Grid.RowDefinitions>
-                <Border Grid.Row="0" CornerRadius="20,0,0,0" Background="#E5232328" BorderThickness="5,5,0,0"></Border>
-                    <Border Grid.Row="1" BorderThickness="5,0,0,0" CornerRadius="50,0,0,0" >
-                        <StackPanel Orientation="Vertical" VerticalAlignment="Center">
-                            <Button x:Name="Menu_1" Height="40" Content="Кнопка 1" Style="{StaticResource Menu_Button_Style}" Click="Button_Menu_1"/>
-                            <Button x:Name="Menu_2" Height="40" Content="Кнопка 2" Style="{StaticResource Menu_Button_Style}" Click="Button_Menu_2"/>
-                            <Button x:Name="Menu_3" Height="40" Content="Кнопка 3" Style="{StaticResource Menu_Button_Style}" Click="Button_Menu_3"/>
-                        </StackPanel>
-                    </Border>
-                    <Border Grid.Row="2" CornerRadius="0,0,0,20" Background="#E5232328" BorderThickness="5,0,0,5"></Border>
-                </Grid>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="160"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Border Grid.Row="0" CornerRadius="10,0,0,0" Background="#FF232323" BorderThickness="5,5,0,0">
+                    <Image x:Name="Icone1" Source="Resources/Icone.png" Stretch="Uniform" Visibility="Visible" Margin="15"/>
+                </Border>
+                <Border Grid.Row="1" BorderThickness="5,0,0,0"  >
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                        <Button x:Name="Menu_1" Height="40" Content="Портфель" Style="{StaticResource Menu_Button_Style}" Click="Button_Menu_1"/>
+                        <Button x:Name="Menu_2" Height="40" Content="Аналитика" Style="{StaticResource Menu_Button_Style}" Click="Button_Menu_2"/>
+                        <Button x:Name="Menu_3" Height="40" Content="Личный кабинет" Style="{StaticResource Menu_Button_Style}" Click="Button_Menu_3"/>
+                        <Button x:Name="Menu_4" Height="40" Content="База активов" Style="{StaticResource Menu_Button_Style}" Click="Button_Menu_4"/>
+                    </StackPanel>
+                </Border>
+                <Border Grid.Row="2" CornerRadius="0,0,0,10" Background="#FF232323" BorderThickness="5,0,0,5"></Border>
+            </Grid>
         </Border>
-        <Border x:Name="Border_Right" Grid.Column="1"  Background="#E53C3C46"></Border>
+        <Border x:Name="Border_Right" Grid.Column="1" Background="#FF414141"/>
     </Grid>
 </Window>
