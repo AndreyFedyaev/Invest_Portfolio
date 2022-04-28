@@ -14,3 +14,14 @@ D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.cspro
 D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.csproj.CoreCompileInputs.cache
 D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.exe
 D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.pdb
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Login.g.cs
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Login.baml
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\MasterProgram.g.cs
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\MasterProgram.baml
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\bin\Debug\MaterialDesignColors.dll
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\bin\Debug\MaterialDesignColors.pdb
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\App.baml
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.csproj.CopyComplete

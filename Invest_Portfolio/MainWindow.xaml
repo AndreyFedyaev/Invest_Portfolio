@@ -6,44 +6,5 @@
         xmlns:local="clr-namespace:Invest_Portfolio"
         mc:Ignorable="d"
         Title="Invest Portfolio v1.0" Height="600" Width="1000">
-
-    <Window.Resources>
-        <Style x:Key="Menu_Button_Style">
-            <Style.Setters>
-                <Setter Property="Control.Background" Value="#FF232323" />
-                <Setter Property="Control.Foreground" Value="#FF9B9B9B" />
-                <Setter Property="Control.BorderThickness" Value="0" />
-                <Setter Property="Control.FontSize" Value="15" />
-            </Style.Setters>
-        </Style>
-    </Window.Resources>
-
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="150"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Border x:Name="Border_Left" Grid.Column="0" Background="#FF414043">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="100"></RowDefinition>
-                    <RowDefinition Height="160"></RowDefinition>
-                    <RowDefinition Height="*"></RowDefinition>
-                </Grid.RowDefinitions>
-                <Border Grid.Row="0" CornerRadius="10,0,0,0" Background="#FF232323" BorderThickness="5,5,0,0">
-                    <Image x:Name="Icone1" Source="Resources/Icone.png" Stretch="Uniform" Visibility="Visible" Margin="15"/>
-                </Border>
-                <Border Grid.Row="1" BorderThickness="5,0,0,0"  >
-                    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
-                        <Button x:Name="Menu_1" Height="40" Content="Портфель" Style="{StaticResource Menu_Button_Style}" Click="Button_Menu_1"/>
-                        <Button x:Name="Menu_2" Height="40" Content="Аналитика" Style="{StaticResource Menu_Button_Style}" Click="Button_Menu_2"/>
-                        <Button x:Name="Menu_3" Height="40" Content="Личный кабинет" Style="{StaticResource Menu_Button_Style}" Click="Button_Menu_3"/>
-                        <Button x:Name="Menu_4" Height="40" Content="База активов" Style="{StaticResource Menu_Button_Style}" Click="Button_Menu_4"/>
-                    </StackPanel>
-                </Border>
-                <Border Grid.Row="2" CornerRadius="0,0,0,10" Background="#FF232323" BorderThickness="5,0,0,5"></Border>
-            </Grid>
-        </Border>
-        <Border x:Name="Border_Right" Grid.Column="1" Background="#FF414141"/>
-    </Grid>
+    <Frame x:Name="MainWindowFrame" NavigationUIVisibility="Hidden"/>
 </Window>
