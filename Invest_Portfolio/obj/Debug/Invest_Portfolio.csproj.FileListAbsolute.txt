@@ -25,3 +25,11 @@ D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\bin\Debug\MaterialDesignThemes.W
 D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\bin\Debug\MaterialDesignThemes.Wpf.xml
 D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\App.baml
 D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Invest_Portfolio.csproj.CopyComplete
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Briefcase.g.cs
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Briefcase.baml
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Analytics.g.cs
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Analytics.baml
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Asset_Base.g.cs
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Personal_Account.g.cs
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Asset_Base.baml
+D:\С#\GitHub\Invest_Portfolio\Invest_Portfolio\obj\Debug\Personal_Account.baml
