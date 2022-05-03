@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Data.Sqlite;
 
 namespace Invest_Portfolio
 {
@@ -20,10 +21,11 @@ namespace Invest_Portfolio
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
-            MainWindowFrame.Content = new Login();
+            MainWindowFrame.Content = new MasterProgram();
         }
     }
 }
