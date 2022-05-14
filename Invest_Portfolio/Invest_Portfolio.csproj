@@ -125,6 +125,7 @@
     <Compile Include="Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Setting.cs" />
     <Compile Include="Stock.cs" />
     <Compile Include="User.cs" />
     <Page Include="Analytics.xaml">
