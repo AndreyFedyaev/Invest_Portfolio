@@ -5,6 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Invest_Portfolio"
         mc:Ignorable="d"
-        Title="Invest Portfolio v1.0" Height="600" Width="1000">
+        Title="Invest Portfolio v1.0" Height="600" Width="1100">
     <Frame x:Name="MainWindowFrame" NavigationUIVisibility="Hidden"/>
 </Window>
